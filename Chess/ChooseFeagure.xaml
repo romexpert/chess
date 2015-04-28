@@ -1,0 +1,8 @@
+﻿<Window x:Class="Chess.ChooseFeagure"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ChooseFeagure" Height="300" Width="300" Closing="Window_Closing">
+    <Grid>
+        <ComboBox HorizontalAlignment="Left" Margin="42,46,0,0" VerticalAlignment="Top" Width="214" Height="124" Loaded="ComboBox_Loaded" SelectionChanged="ComboBox_SelectionChanged"/>
+    </Grid>
+</Window>
